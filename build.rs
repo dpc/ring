@@ -236,7 +236,7 @@ const MSVC_OBJ_EXT: &str = "obj";
 
 fn main() {
     if let Ok(package_name) = std::env::var("CARGO_PKG_NAME") {
-        if package_name == "ring" {
+        if package_name == "fedimint-ring" {
             ring_build_rs_main();
             return;
         }
