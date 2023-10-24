@@ -208,6 +208,7 @@ include = [
     "src/pkcs8.rs",
     "src/polyfill.rs",
     "src/polyfill/convert.rs",
+    "src/polyfill/chunks_fixed.rs",
     "src/rand.rs",
     "src/rsa/convert_nist_rsa_test_vectors.py",
     "src/rsa.rs",
